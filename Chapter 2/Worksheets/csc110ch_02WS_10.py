@@ -9,4 +9,4 @@ days_per_wk = 7
 wks_gone = 123 // 7
 days_left_over = days_gone % days_per_wk
 
-print("You were gone",wks_gone,"weeks and", days_left_over, "days.")
+print("You were gone",wks_gone,"weeks and", days_left_over, "days.", "I returned on a Tuesday")
