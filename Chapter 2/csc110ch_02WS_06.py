@@ -5,11 +5,20 @@
 # ************************************
 
 begin = 8911
-total_min = begin 
+total_min = begin
+
+print(total_min)
 
 numdays = total_min // (60*24)
 total_min %= 60*24
 
+print(numdays, 'days')
+print(total_min)
+
 numhrs = total_min // 60
 total_min %= 60
+
+print(numhrs, 'hours')
+print(total_min)
+
 print(begin, "minutes = ", numdays, "days ",numhrs, "hours, ",total_min,"minutes" )
