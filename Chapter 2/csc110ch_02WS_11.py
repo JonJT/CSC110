@@ -5,5 +5,5 @@
 # the second column will have the square of the number and the third column will have the cube.
 # **************************************
 
-for i in range(1,10):
-    print(i**2)
+for i in range(1,11):
+    print(i, i**2, i**3)
