@@ -17,4 +17,4 @@ t = int(input("Enter the number of years your money will earn 8% interest for:")
 
 A = P * ( 1 + r/n ) ** (n*t)
 
-print("Your final savings ammount after", t, "years is:", round(A, 2), "USD")
+print("Your final savings amount after", t, "years is:", round(A, 2), "USD")
