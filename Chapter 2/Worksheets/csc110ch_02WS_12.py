@@ -1,11 +1,13 @@
 # *************************************
 # WS ch2_12
-# Use a for loop with range to sum all the  odd numbers from 11 to 91.  Use a sum accumulator.
+# Use a for loop with range to sum all the odd numbers from 11 to 91. Use a sum accumulator.
 # **************************************
 
-start = 11
-end = 91
+S = 0
 
-num_list = range(start, end + 1, 2)
-final_sum = sum(num_list)
-print(final_sum)
+for x in range(11,93,2):
+    S += x
+
+print(S)
+
+# Answer is 2091
