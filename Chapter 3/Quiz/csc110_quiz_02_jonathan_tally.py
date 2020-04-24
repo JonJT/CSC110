@@ -1,5 +1,5 @@
 # CSC 110 Spring 2020  Quiz 2 Take-home                       NAME: Jonathan Tally
-# youTube Link: 
+# youTube Link: https://youtu.be/yqOZxagpA6U
 # Write clear, legible code, the simpler the better. Make sure your code works. 
 # Due Monday at class start.  Use the editor to write your code.  Also, submit a file, Quiz_2_YourFullName.py 
 # in an email that has as subject csc 110 quiz_YourFullName. 
@@ -27,15 +27,17 @@ print(s)
 # these number. Copy the answer from the shell into your file, comment the answer out.  Make sure your code works.
 
 usrNm=[]
+s = 0
 
 for i in range(3):
     usrNm.append(float(input("Enter number: ")))
-    s = 0
-    for x in (usrNm):
-        s += x ** 3
+    
+for x in (usrNm):
+    s += x ** 3
 
 print(s)
 
+# Answer 23125691335.536
 
 # 3.  (extra credit 5 pts) Write Python code that answers this question: How many whole gallons, quarts, pints, cups & ounces of
 #  water are there in 7953 ounces of water?  You will need the following measures:
@@ -50,3 +52,28 @@ print(s)
 # SHOW YOUR ANSWER and check your code.  Make sure you use Python code to find the answers.  If you do not show your answer, 
 # points will be deducted. Copy the answer from the shell into your file, comment the answer out.  Make sure your code works.
 
+oz2cup = 8
+oz2pt = oz2cup * 2
+oz2qt = oz2pt * 2
+oz2gal = oz2qt * 4
+
+begin = 7953
+total_oz = begin
+
+total_gals = total_oz // oz2gal
+total_oz %= oz2gal
+
+total_qts = total_oz // oz2qt
+total_oz %= oz2qt
+
+total_pts = total_oz // oz2pt
+total_oz %= oz2pt
+
+total_cups = total_oz // oz2cup
+total_oz %= oz2cup
+
+total_oz_remain = total_oz
+
+print("7953 oz is: ", total_gals, "gallons,", total_qts, "quarts,", total_pts, "pints,", total_cups, "cups,", total_oz_remain, "oz.")
+
+# Answer is "7953 oz is:  62 gallons, 0 quarts, 1 pints, 0 cups, 1 oz.""

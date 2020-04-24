@@ -83,10 +83,65 @@
 #     print(s)
 # addMult3(2)
 
-n1 = 1950.1**3
-n2 = 1975.2**3
-n3 = 2000.3**3
+# n1 = 1950.1**3
+# n2 = 1975.2**3
+# n3 = 2000.3**3
 
-n4 = n1 + n2 + n3
+# n4 = n1 + n2 + n3
 
-print(n4)
+# print(n4)
+
+# oz2cup = 8
+# oz2pt = oz2cup * 2
+# oz2qt = oz2pt * 2
+# oz2gal = oz2qt * 4
+
+# print(oz2cup)
+# print(oz2pt)
+# print(oz2qt)
+# print(oz2gal)
+
+# oz2cup = 8
+# oz2pt = oz2cup * 2
+# oz2qt = oz2pt * 2
+# oz2gal = oz2qt * 4
+
+# begin = 7953
+# total_oz = begin
+
+# total_gals = total_oz // oz2gal
+# total_oz %= oz2gal
+
+# total_qts = total_oz // oz2qt
+# total_oz %= oz2qt
+
+# total_pts = total_oz // oz2pt
+# total_oz %= oz2pt
+
+# total_cups = total_oz // oz2cup
+# total_oz %= oz2cup
+
+# total_oz_remain = total_oz
+
+# print("7953 oz is", total_gals, "gallons", total_qts, "quarts", total_pts, "pints", total_cups, "cups", total_oz_remain, "oz.")
+
+# usrNm=[]
+# s = 0
+
+# for i in range(3):
+#     usrNm.append(float(input("Enter number: ")))
+    
+# for x in (usrNm):
+#     s += x ** 3
+
+# print(s)
+
+usrNm=[]
+ 
+for i in range(3):
+    usrNm.append(float(input("Enter number: ")))
+    s = 0
+    for x in (usrNm):
+        s += x ** 3
+ 
+print(s)
