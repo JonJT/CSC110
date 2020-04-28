@@ -136,12 +136,35 @@
 
 # print(s)
 
-usrNm=[]
+# usrNm=[]
  
-for i in range(3):
-    usrNm.append(float(input("Enter number: ")))
-    s = 0
-    for x in (usrNm):
-        s += x ** 3
+# for i in range(3):
+#     usrNm.append(float(input("Enter number: ")))
+#     s = 0
+#     for x in (usrNm):
+#         s += x ** 3
  
-print(s)
+# print(s)
+
+import turtle
+
+wn = turtle.Screen()
+lovelace = turtle.Turtle()
+
+# move the turtle foward a little so that the whole path fits on the screen
+# lovelace.penup()
+# lovelace.forward(60)
+
+# # now draw the drunk pirate's path
+# lovelace.pendown()
+for angle in [160, -43, 270, -97, -43, 200, -940, 17, -86]:
+
+    # we use .left() so that positive angles are counter-clockwise
+    # and negative angles are clockwise
+    lovelace.left(angle)
+    lovelace.forward(100)
+
+# the .heading() method gives us the turtle's current heading in degrees
+print("The pirate's final heading was", lovelace.heading())
+
+wn.exitonclick()
