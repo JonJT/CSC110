@@ -12,3 +12,4 @@
 # Print out a table of e^x for x from 0 to 5 in steps of .5.  Use n = 10.  The table should have 3 
 # columns (don’t worry too much for now about making things line up):
 # **********************************************
+
