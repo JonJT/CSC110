@@ -24,11 +24,15 @@
 
 ##################################
 
-def return_sqr(x):
-    return x**2
+# def return_sqr(x):
+#     return x**2
 
-# print(return_sqr(4) + 1)
+# # print(return_sqr(4) + 1)
 
-answer = return_sqr(4)
-finalAnswer = answer + 1
-print(finalAnswer)
+# answer = return_sqr(4)
+# finalAnswer = answer + 1
+# print(finalAnswer)
+
+F = [range(0,60)]
+
+print(F)
