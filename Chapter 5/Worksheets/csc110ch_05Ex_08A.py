@@ -6,7 +6,11 @@
 
 import turtle
 wn = turtle.Screen()
-t = turtle.Turtle
+t = turtle.Turtle()
+wn.bgcolor("black")
+t.color("white")
+t.speed(0)
+t.ht()
 
 def ruler(t, n):
     long, medium, short = 15, 10 ,5
@@ -28,13 +32,6 @@ def make_tick(t, tick_length):
     t.bk(tick_length)
     t.rt(90)
 
-ruler (t, 50)
-
-def ruler_square(t, n):
-    for i in range(4):
-        ruler(t, n)
-        t.lt(90)
-
-ruler_square(t, 70)
+ruler(t, 50)
 
 wn.mainloop()

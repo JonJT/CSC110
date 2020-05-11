@@ -33,6 +33,30 @@
 # finalAnswer = answer + 1
 # print(finalAnswer)
 
-F = [range(0,60)]
+# F = [range(0,60)]
 
-print(F)
+# print(F)
+
+def SumOfSqrOfInts_A(x, y):
+
+    
+    
+    for n in range(x, y):
+        total = 0
+        
+        d7 = (n % 7 == 0)           # div by 7
+        d3 = (n % 3 == 0)           # div by 3
+        d2 = (n % 2 == 0)           # div by 2
+        b = ((d7 or d3) and d2)
+        if (b):
+
+            sqrn = n**2
+            
+            total = total + sqrn
+            
+            print(n, end = ' ')
+
+        print(total)
+            
+print(SumOfSqrOfInts_A(20, 41))
+
