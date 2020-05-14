@@ -59,4 +59,4 @@ def tableOfPrimes(From, To, num_per_line):
                 print()
 
 
-tableOfPrimes(1000, 5000, 15)
+tableOfPrimes(1000, 50000, 15)
