@@ -1,3 +1,7 @@
+## overall grade = (19 + 19 + 12)/55 = 50/55
+## Q1 and Q2  - functions not written to spec to return  sum of squares
+## Q3  Sum_B not right because of range in for loop.  No explanation for cube root of cube
+
 # CSC 110 Spring 2020  Quiz 4 Take-home                       NAME: Jonathan Tally
 # YouTube Link: https://youtu.be/ldwJVTkuGZA
 # Write clear, legible code, the simpler the better. Make sure your code works.   Due Monday at class start.
@@ -143,11 +147,11 @@ print(aDivB)
 
 # output 0.40907
 
-cubeRootofCube = (((Sum_A)**3) ** (1/3))
+cubeSum_A = Sum_A ** (1/3)
 
-print(cubeRootofCube)
+print(cubeSum_A)
 
-# output 25687265019.999966
+# output 2950.570224731659
 
 
 # To Submit:

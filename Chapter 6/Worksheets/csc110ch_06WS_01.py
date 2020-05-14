@@ -9,4 +9,6 @@ def avg_2_nums(x, y):
     avg = (x + y) / 2
     return avg
 
-print(avg_2_nums(2, 3))
+x, y = 1, 2
+avg = avg_2_nums(x, y)
+print(avg)
