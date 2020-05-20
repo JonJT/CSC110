@@ -33,6 +33,6 @@ def sep_ints_and_strgs(L):
 
 L = ['dog', 3, 7,2,'cat','5']
 
-print('List", L, "has the follwing two sublists, ints and strings.')
+print('List', L, 'has the follwing two sublists, ints and strings.')
 
 print(sep_ints_and_strgs(L))
