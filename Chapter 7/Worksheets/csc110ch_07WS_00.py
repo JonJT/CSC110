@@ -24,7 +24,7 @@
 
 counter = 0
 def d7andnotd5(n):
-    d7 = n % 7 ==0
+    d7 = n % 7 == 0
     d5 = n % 5 == 0
     B = d7 and not d5
     return B
@@ -37,7 +37,7 @@ print(counter)
 
 #########################
 
-L = []
-for n in range(1, 501):
-    if (d7andnotd5(n)):
-        L.append(n)
+# L = []
+# for n in range(1, 501):
+#     if (d7andnotd5(n)):
+#         L.append(n)

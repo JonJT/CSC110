@@ -27,5 +27,3 @@ print(' n        proper factors')
 print('------------------------')
 for n in range(11, 21):
     print(n, listOfFactorsOf(n))
-
-
