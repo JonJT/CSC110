@@ -9,3 +9,16 @@
 # test(turn_clockwise(42) == None)
 # test(turn_clockwise("rubbish") == None)
 
+def turn_clockwise(x):
+    if x == "N":
+        return "E"
+    elif x == "E":
+        return "S"
+    elif x == "S":
+        return "W"
+    elif x == "W":
+        return "N"
+    else:
+        return "None"
+
+print(turn_clockwise("N") == "E")

@@ -5,3 +5,22 @@
 # test(day_name(6) == "Saturday")
 # test(day_name(42) == None)
 
+def day_name(dayNumber):
+    if dayNumber == 0:
+        return 'Sunday'
+    elif dayNumber == 1:
+        return 'Monday'
+    elif dayNumber == 2:
+        return 'Tuesday'
+    elif dayNumber == 3:
+        return 'Wednesday'
+    elif dayNumber == 4:
+        return 'Thursday'
+    elif dayNumber == 5:
+        return 'Friday'
+    elif dayNumber == 6:
+        return 'Saturday'
+    else:
+        return 'None'
+
+print(day_name(4) == "Thursday")
