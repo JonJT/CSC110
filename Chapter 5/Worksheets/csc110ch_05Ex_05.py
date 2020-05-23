@@ -10,7 +10,7 @@
 
 def tell_if_d3_and_not_d5(num):
     d3 = (num % 3 == 0)
-    d5 = (num % 5 ==0 )
+    d5 = (num % 5 == 0)
     b = (d3 and not d5)
     if (b):
         print(num, 'is div by 3 but not div by 5')

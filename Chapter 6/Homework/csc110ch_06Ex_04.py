@@ -8,3 +8,22 @@
 # test(day_add("Sunday", 100) == "Tuesday")
 # Hint: use the first two functions written above to help you write this one
 
+def day_name(dayName):
+    if dayName == 'Sunday':
+        return 0
+    elif dayName =='Monday':
+        return 1
+    elif dayName =='Tuesday':
+        return 2
+    elif dayName =='Wednesday':
+        return 3
+    elif dayName =='Thursday':
+        return 4
+    elif dayName =='Friday':
+        return 5
+    elif dayName =='Saturday':
+        return 6
+    else:
+        return 'None'
+
+print(day_name("Thursday") == 4)
