@@ -1,4 +1,5 @@
 # CSC 110 Spring 2020  Quiz 6 Take-home                       NAME: Jonathan Tally
+# YouTube: https://youtu.be/_En-MDj3mdg
 # Write clear, legible code, the simpler the better. Make sure your code works.   
 # Due next Monday before midnight.  Use the editor to write your code. Submit a file, 
 # Quiz_6_YourFullName.py in an email that has as subject  csc 110 quiz 6_YourFullName.   
@@ -50,7 +51,7 @@ def roll2DiceUntilSumIsPrime():
     rolledDice.append(roll)
     print(rolledDice)
 
-# roll2DiceUntilSumIsPrime()
+roll2DiceUntilSumIsPrime()
 
 
 
@@ -116,15 +117,15 @@ def numTimesThruLoop(x1 ,x2, del_x):
 # for i in range(n_loop):
 #     x = x1 + i * del_x
 
-x1, x2, del_x = 0, 2, 0.25
+# x1, x2, del_x = 0, 2, 0.25
 
-n_loop = numTimesThruLoop(x1, x2, del_x)
+# n_loop = numTimesThruLoop(x1, x2, del_x)
 
-for i in range(n_loop):
-    x = x1 + i * del_x
-    return x
+# for i in range(n_loop):
+#     x = x1 + i * del_x
+#     return x
 
-
+### This was as far as I got.
 
 
 
