@@ -14,7 +14,7 @@ def guessNum2():
     Program tells user guess is high/low. Score starts at 100 decreases by 2
     for every incorrect guess. Print out: final score, secret number, incorrect
     guesses made, congratulatory message if guessed on 1st try.'''
-    secret = randint(1, 128)
+    secret = randint(1, 129)
     print('''Welcome to the number guessing game.
     Guess a natural number between 1 and 128. Score
     starts at 100 and dcreases by 2 for every incorrect guess.
@@ -24,16 +24,16 @@ def guessNum2():
     # choose out of range for 1st try
     # guarantees one time thru loop
     guesses = []
-    guess = int(input("What's your guess? "))
+    guess = int(input("\nWhat's your guess? "))
     while guess != secret:
         # guess = eval(input("What's your guess? ""))
         guesses.append(guess)
         if guess != secret:
             score -= 2
         if guess < secret:
-            print("Your guess is too low.")
+            print("Your guess is too low.\n")
         elif guess > secret:
-            print("Your guess is too high. ")
+            print("Your guess is too high.\n")
         guess = int(input("What's your guess? "))
     print("Your score is ", score)
     print("Secret number is ", secret)
