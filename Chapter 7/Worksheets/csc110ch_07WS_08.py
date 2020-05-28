@@ -14,7 +14,7 @@ def guessNum2():
     Program tells user guess is high/low. Score starts at 100 decreases by 2
     for every incorrect guess. Print out: final score, secret number, incorrect
     guesses made, congratulatory message if guessed on 1st try.'''
-    secret = randint(1, 129)
+    secret = randint(1, 128)
     print('''Welcome to the number guessing game.
     Guess a natural number between 1 and 128. Score
     starts at 100 and dcreases by 2 for every incorrect guess.
