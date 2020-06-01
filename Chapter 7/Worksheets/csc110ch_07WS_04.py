@@ -54,4 +54,4 @@ d = make_turtle('blue', 3)
 draw_circle(d, 300)
 stop_when_circle_xd(t, 15, 300)
 
-wn.exitonclick() 
+wn.exitonclick()

@@ -45,4 +45,4 @@ def rollUntilSnkEyes():
     print("Rolls made:")
     print(rollsMade)
 
-# rollUntilSnkEyes()
+rollUntilSnkEyes()

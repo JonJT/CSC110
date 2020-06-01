@@ -81,14 +81,14 @@ for word in words:
 #      The sum of the values of the words is 340
 #      The product of the values of the words is 630000
 
-def ListOfWordsSumProd(Ltrs, Ltrs):
-    Sum = 0
-    for word in LOWrods:
-        Sum += WordValue(word)
+def ListOfWordsSumProd(Ltrs):
+    # Sum = 0
+    # for word in LOWrods:
+    #     Sum += WordValue(word)
     Prod = 1
     for word in LOWrods:
         Prod *= WordValue(word)
-    return Sum, Prod
+    return Prod
         
 
 LOWrods = ['ABE', 'OPRA', 'OPRA-JONES']
