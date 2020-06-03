@@ -5,3 +5,13 @@
 # 26 for a ‘z’ or a ‘Z’.  If isn't a letter, returns 0.
 # Uses the find string method. 
 
+from string import ascii_lowercase as lc, ascii_uppercase as uc
+
+def numValSngl(Char):
+    return lc.find(Char.lower()) + 1
+
+print(numValSngl('a'))
+print(numValSngl('A'))
+print(numValSngl('b'))
+print(numValSngl('B'))
+print(numValSngl('!'))

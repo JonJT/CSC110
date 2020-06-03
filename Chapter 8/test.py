@@ -18,7 +18,3 @@ print(numValSngl('A'))
 print(numValSngl('b'))
 print(numValSngl('B'))
 print(numValSngl('!'))
-
-#-----
-#
-#-----
