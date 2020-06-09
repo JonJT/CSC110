@@ -51,11 +51,51 @@ def valueOf_1(Letter):
         return  25 - lc.find(letter)
 
 
-print('LC    UC    Value')
-print('--    --    -----')
-for Letter in lc:
-    UC = Letter.upper()
-    print(Letter, ' or ', UC, '   ', valueOf_1(Letter))
-print()
+# print('LC    UC    Value')
+# print('--    --    -----')
+# for Letter in lc:
+#     UC = Letter.upper()
+#     print(Letter, ' or ', UC, '   ', valueOf_1(Letter))
+# print()
 
 ##############################
+
+#####
+# Monday
+#####
+
+punctuation = "!\"#$%&’()*+,-./:;<=>?@[\\]^_'{|}~"
+
+def remove_punctuation(s):
+    s_sans_punct = ""
+    for letter in s:
+        if letter not in punctuation:
+            s_sans_punct += letter
+        return s_sans_punct
+
+# print(remove_punctuation("Are you very, very, sure?") ==
+# "Are you very very sure")
+
+###############################
+
+import string
+
+def remove_punctuation_A(s):
+    s_without_punct = ""
+    for letter in s:
+        if letter not in string.punctuation:
+            s_without_punct += letter
+        return s_without_punct
+
+my_story = """
+Pythons are constrictors, which means that they will 'squeeze' the life
+out of their prey. They coil themselves around their prey and with
+each breath the creature takes the snake will squeeze a little tighter
+until they stop breathing completely. Once the heart stops the prey
+is swallowed whole. The entire animal is digested in the snake’s
+stomach except for fur or feathers. What do you think happens to the fur,
+feathers, beaks, and eggshells? The ’extra stuff’ gets passed out as ---
+you guessed it --- snake POOP! """
+
+wds = remove_punctuation(my_story).split()
+print(wds)

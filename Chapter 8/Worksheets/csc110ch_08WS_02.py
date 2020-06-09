@@ -24,3 +24,8 @@ def numValMany(Chars):
 # for word in L:
 #     P *= numValMany(word)
 # print("The product of the values of", Chars, "is", P)
+
+
+
+def summation(word): 
+    return sum(lettersDict[s.upper()] for s in word)
