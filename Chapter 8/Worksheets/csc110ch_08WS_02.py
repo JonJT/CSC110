@@ -14,9 +14,9 @@ def numValMany(Chars):
         S += numValSngl(n)
     return S
 
-# Chars = 'Abe'
+Chars = 'Abe'
 
-# print(Chars, "has a value of", numValMany(Chars))
+print(Chars, "has a value of", numValMany(Chars))
 
 # Chars = 'To be or not to be that is the question'
 # P = 1

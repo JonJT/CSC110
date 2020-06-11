@@ -11,7 +11,7 @@ def vEscape(r):
     return sqrt(2*G*M/r)
 
 layout = '{0:10}    {1:10}'
-print(layout.format('Radius(m)', 'Esc Vel (m/s'))
+print(layout.format('Radius(m)', 'Esc Vel m/s'))
 
 delta = 0.5E6
 r = 6.5E6
