@@ -12,8 +12,28 @@
 
 # Use appropriate helper functions.
 
-# Now use this function to decypher this encrypted text:
+# Now use this function to decipher this encrypted text:
 
 
 # Zw pfl kvcc kyv kilky, pfl ufe'k yrmv kf ivdvdsvi repkyzex.  – Drib Knrze
 
+from string import ascii_lowercase as lc, ascii_uppercase as uc
+
+def caesar(Ltr, shift):
+    if (Ltr in lc):
+        return lc[(lc.find(Ltr) + shift) % 26]
+    elif (Ltr in uc):
+        return uc[(uc.find(Ltr) + shift) % 26]
+    else:
+        return Ltr
+
+Str = "Zw pfl kvcc kyv kilky, pfl ufe'k yrmv kf ivdvdsvi repkyzex.  – Drib Knrze"
+
+def caesarStr(Str, shift):
+    decipherStr = ""
+    for Ltr in Str:
+        decipherStr += caesar(Ltr, shift)
+    return decipherStr
+
+for shift in range(26):
+    print(caesarStr(Str, shift))
