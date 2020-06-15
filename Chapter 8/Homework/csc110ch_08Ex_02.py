@@ -1,8 +1,15 @@
 # Modify:
-# 1 prefixes = "JKLMNOPQ"
-# 2 suffix = "ack"
-# 3 4
+# prefixes = "JKLMNOPQ"
+# suffix = "ack"
 # for letter in prefixes:
-# 5 print(letter + suffix)
+# print(letter + suffix)
 # so that Ouack and Quack are spelled correctly.
 
+prefixes = "JKLMNOPQ"
+suffix = "ack"
+
+for letter in prefixes:
+    if letter == "O" or letter == "Q":
+        print(letter + "u" + suffix)
+    else:
+        print(letter + suffix)
