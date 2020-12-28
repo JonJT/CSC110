@@ -18,7 +18,7 @@ def roll2Dice():
         l.append(roll)
     return l
 
-# print(roll2Dice())
+print(roll2Dice())
 
 
 
